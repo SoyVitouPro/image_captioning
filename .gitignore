@@ -1,0 +1,16 @@
+# Ignore logs
+*.log
+
+# Ignore binaries
+*.exe
+*.dll
+*.so
+*.o
+*.a
+
+# Ignore directories
+boilerplate_env/
+bin/
+obj/
+temp/
+
