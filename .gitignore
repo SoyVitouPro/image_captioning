@@ -10,6 +10,9 @@
 
 # Ignore directories
 boilerplate_env/
+image_env/
+data/
+
 bin/
 obj/
 temp/
