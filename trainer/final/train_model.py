@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 from config.config import annotations_file, img_dir, idx2word_path, max_lengths, num_epochs, model_encode_path, model_decode_path
 from .training_utilities import word2idx, evaluate_model
 
-
+ 
 
 # Encoding and decoding functions
 def encode_khmer_word(word, word2idx):

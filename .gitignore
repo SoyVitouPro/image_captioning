@@ -12,6 +12,7 @@
 boilerplate_env/
 image_env/
 data/
+weights/
 
 bin/
 obj/
