@@ -14,7 +14,15 @@ image_env/
 data/
 weights/
 
+notebook/*.pth
+notebook/fkr5k-dataset/
+notebook/fkr5k-dataset-5k/
+notebook/dataset_images/
+notebook/downloaded_images/
+
 bin/
 obj/
 temp/
+
+region_features/
 
