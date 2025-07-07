@@ -31,6 +31,7 @@ notebook/dataset.py
 *.jpeg
 *.png
 *.gif
+*.npy
 *.bmp
 *.tiff
 *.webp

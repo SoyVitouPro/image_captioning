@@ -1,0 +1,59 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "fkr30k-image-captioning-dataset",
+  "dataset_size": 1622515481,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/jpawan33/fkr30k-image-captioning-dataset@9a067546b4ba5967e0a968f06beb719ab5bfbaf8/data/train-00000-of-00004-890292842da58873.parquet": {
+      "num_bytes": 402817000,
+      "checksum": null
+    },
+    "hf://datasets/jpawan33/fkr30k-image-captioning-dataset@9a067546b4ba5967e0a968f06beb719ab5bfbaf8/data/train-00001-of-00004-fda69f1a3304b7f1.parquet": {
+      "num_bytes": 400096894,
+      "checksum": null
+    },
+    "hf://datasets/jpawan33/fkr30k-image-captioning-dataset@9a067546b4ba5967e0a968f06beb719ab5bfbaf8/data/train-00002-of-00004-2bc917a30e178260.parquet": {
+      "num_bytes": 410986837,
+      "checksum": null
+    },
+    "hf://datasets/jpawan33/fkr30k-image-captioning-dataset@9a067546b4ba5967e0a968f06beb719ab5bfbaf8/data/train-00003-of-00004-854120c254bb73c2.parquet": {
+      "num_bytes": 407485832,
+      "checksum": null
+    }
+  },
+  "download_size": 1621386563,
+  "features": {
+    "image": {
+      "_type": "Image"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 3243902044,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1622515481,
+      "num_examples": 31782,
+      "shard_lengths": [
+        9846,
+        9946,
+        9745,
+        2245
+      ],
+      "dataset_name": "fkr30k-image-captioning-dataset"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
