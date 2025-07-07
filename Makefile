@@ -18,3 +18,5 @@ train:
 run:
 	@echo "Running the application..."
 	. $(IMAGE_CAPTION_ENV)/bin/activate; cd $(PROJECT_DIR); uvicorn src.app:app --reload --host 0.0.0.0 --port 8000
+
+# Hello world
