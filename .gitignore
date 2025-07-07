@@ -33,6 +33,7 @@ notebook/dataset.py
 *.gif
 *.npy
 *.bmp
+*.arrow
 *.tiff
 *.webp
 data/*.jpg
